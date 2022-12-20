@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>confirmation</servlet-name>
+  	<display-name>confirmation</display-name>
+  	<description></description>
+  	<servlet-class>confirmation</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>test</servlet-name>
+  	<display-name>test</display-name>
+  	<description></description>
+  	<servlet-class>test</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>userreg</servlet-name>
+  	<display-name>userreg</display-name>
+  	<description></description>
+  	<servlet-class>userreg</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ride</servlet-name>
+  	<display-name>ride</display-name>
+  	<description></description>
+  	<servlet-class>ride</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OwnerRegister</servlet-name>
+  	<display-name>OwnerRegister</display-name>
+  	<description></description>
+  	<servlet-class>OwnerRegister</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OwnerLogin</servlet-name>
+  	<display-name>OwnerLogin</display-name>
+  	<description></description>
+  	<servlet-class>OwnerLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>insertuser</servlet-name>
+  	<display-name>insertuser</display-name>
+  	<description></description>
+  	<servlet-class>insertuser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>confirmation</servlet-name>
+  	<url-pattern>/confirmation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>test</servlet-name>
+  	<url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>userreg</servlet-name>
+  	<url-pattern>/userreg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ride</servlet-name>
+  	<url-pattern>/ride</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OwnerRegister</servlet-name>
+  	<url-pattern>/OwnerRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OwnerLogin</servlet-name>
+  	<url-pattern>/OwnerLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>insertuser</servlet-name>
+  	<url-pattern>/insertuser</url-pattern>
+  </servlet-mapping>
+</web-app>
